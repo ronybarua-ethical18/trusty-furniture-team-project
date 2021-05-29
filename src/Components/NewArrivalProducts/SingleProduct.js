@@ -12,7 +12,6 @@ const SingleProduct = ({productData, addToCart, loadCurrentItem}) => {
                 <Card.Img variant="top" src={productData.productImg} className="product-image" />
                 <Card.Body>
                     <Card.Title>{productData.productName}</Card.Title>
-                    <p>{productData.ProductDesc}</p>
                     <strong>{productData.price}</strong>
                     <div className="d-flex  justify-content between p-3">
                        <Link to ={`/products/${productData.id}`}>

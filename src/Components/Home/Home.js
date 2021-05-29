@@ -3,7 +3,14 @@ import NewArrivalProducts from '../NewArrivalProducts/NewArrivalProducts';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
+import firebase from "firebase/app";
+import "firebase/auth";
+import firebaseConfig from '../../firebase.config';
 const Home = ({ cart }) => {
+    // initialize firebase
+    if (firebase.apps.length === 0) {
+        firebase.initializeApp(firebaseConfig)
+    }
     const [productCount, setProductCount] = useState(0);
     useEffect(() => {
         let count = 0;
