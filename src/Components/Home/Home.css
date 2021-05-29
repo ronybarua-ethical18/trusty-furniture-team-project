@@ -1,0 +1,13 @@
+.cart-counter{
+    text-decoration: none;
+}
+.item-number{
+    padding:5px;
+    border:2px solid #8F12FD;
+    border-radius:50%;
+    color:#8F12FD;
+}
+.nav-links{
+    color:#8F12FD;
+    text-decoration: none;
+}

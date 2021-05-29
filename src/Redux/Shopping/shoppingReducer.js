@@ -11,56 +11,56 @@ const INITIAL_STATE = {
     products: [
         {
             id:  1,
-            productName: 'Breakfast Sandwich',
+            productName: 'Wooden Chair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 120,
             productImg: arrival1
         },
         {
             id:  2,
-            productName: 'Baked Chicken',
+            productName: 'Single ArmChair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 80,
             productImg: arrival2,
         },
         {
             id:  3,
-            productName: 'Eggs Benedicts',
+            productName: 'Wooden ArmChair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 70,
             productImg: arrival3
         },
         {
             id:  4,
-            productName: 'Toast Croissant Fried Egg',
+            productName: 'Stylish Chair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 30,
             productImg: arrival4
         },
         {
             id:  5,
-            productName: 'Healthy Meal Plan',
+            productName: 'Modern Chair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 50,
             productImg: arrival5
         },
         {
             id:  6,
-            productName: 'Fried Chicken Bento',
+            productName: 'Dinnig Table',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 60,
             productImg: arrival6
         },
         {
             id:  7,
-            productName: 'Tarragon Rubbed Salmon',
+            productName: 'Arm Chair',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 70,
             productImg: arrival7
             
         },{
             id:  8,
-            productName: 'Indian Lunch',
+            productName: 'Wooden Bed',
             ProductDesc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque eligendi qui, quia alias quam et adipisci ullam dolor expedita in sequi quae, distinctio, veritatis aut natus sint quas? Animi?',
             price: 80,
             productImg: arrival8

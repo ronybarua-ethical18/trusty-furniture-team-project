@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import {connect} from 'react-redux'
 import { adjustQty, removeFromCart } from '../../Redux/Shopping/shoppingActions';
+import './CartItem.css'
 const CartItem = ({itemData, removeFromCart, adjustQty}) => {
     const [input, setInput] = useState(itemData.qty)
 
@@ -11,18 +12,16 @@ const CartItem = ({itemData, removeFromCart, adjustQty}) => {
     }
     return (
             <div className="col-md-6">
-                <Card className="w-100 p-4 shadow">
+                <Card className="w-100 p-4 shadow mb-4">
                     <Card.Img variant="top" src={itemData.productImg} className="product-image" />
                     <Card.Body>
                         <Card.Title>{itemData.productName}</Card.Title>
-                        <p>{itemData.ProductDesc}</p>
-                        <strong>{itemData.price}</strong>
+                        <div className="d-flex justify-content-between">
+                            <strong>${itemData.price}</strong>
+                            <input onChange={handleOnChange} type="number" min="1" id="qty" name="qty" value={input} />
+                        </div>
                     </Card.Body>
-                    <div>
-                        <label htmlFor="qty">Quantity</label>
-                        <input onChange={handleOnChange} type="number" min="1" id="qty" name="qty" value={input} />
-                    </div>
-                    <Button  onClick={() => removeFromCart(itemData.id)}>Remove Item</Button>
+                    <Button  id="default-btn" onClick={() => removeFromCart(itemData.id)}>Remove Item</Button>
                 </Card>
             </div>
     );

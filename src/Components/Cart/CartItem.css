@@ -1,0 +1,11 @@
+#qty{
+    border: 2px solid #8F12FD;
+    border-radius:30px;
+    padding:10px 5px;
+    text-align:center;
+    outline:none;
+}
+.product-image{
+    height:200px;
+    width:200px;
+}

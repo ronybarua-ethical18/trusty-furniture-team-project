@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import {connect} from 'react-redux'
+import Navigation from '../Navigation/Navigation';
 import CartItem from './CartItem';
 const Cart = ({cart}) => {
     const [totalPrice, setTotalPrice] = useState(0)
@@ -18,7 +19,8 @@ const Cart = ({cart}) => {
     },[cart, totalPrice, totalItems, setTotalPrice, setTotalItems])
     return (
         <div className="container">
-            <div className="row">
+            <Navigation></Navigation>
+            <div className="row " id="default-margin">
                 <div className="col-md-8">
                     <div className="row">
                         {
@@ -30,10 +32,12 @@ const Cart = ({cart}) => {
                     <div className="cart-summary shadow p-3">
                         <h1>Cart Summary</h1>
                         <div className="price">
-                            <span>Total Items: {totalItems}</span>
-                            <span>Price: ${totalPrice}</span>
+                                <h5>Total Items: <b>{totalItems}</b></h5>
+                                <h5>Price: <b>${totalPrice}</b></h5>
+                            <span></span>
+                            <span></span>
                         </div>
-                        <Button>Proceed to checkout</Button>
+                        <Button id="default-btn" className="w-100 mt-4">Proceed to checkout</Button>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 const NewArrivalProducts = ({ products }) => {
     return (
         <div className="container">
+            <h2 className="text-center mb-5">New Arrival</h2>
             <div className="row">
                 {
                     products.map(product => <SingleProduct key={product.id} productData={product}></SingleProduct>)

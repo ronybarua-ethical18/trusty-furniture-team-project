@@ -2,8 +2,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Cart from './Components/Cart/Cart';
@@ -14,6 +13,9 @@ function App() {
      <Router>
         <Switch>
             <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/home">
               <Home></Home>
             </Route>
             <Route exact path="/cart">
