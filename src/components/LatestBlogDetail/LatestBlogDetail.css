@@ -1,0 +1,38 @@
+.latest-blog {
+    text-align:center;
+}
+
+.blog-img-div {
+    height: 200px;
+    width: 340px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.blog-img {
+    height: 200px;
+    width: 340px;
+    transition: all 0.8s linear;
+}
+
+.blog-img:hover {
+    transform: scale(1.3)
+}
+
+
+.blog-detail {
+    /* border: 1px solid red; */
+    width: 340px;
+}
+
+.title {
+    transition: 0.5s;
+}
+
+.title:hover {
+    color: orange;
+} 
+
+.text {
+    font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.box1 {
+   
+    background-color:#F3FBFA;
+}
+.box2 {
+    /* border: 1px solid black; */
+    background-color:#F3FBFA;
+}
+
+.arm {
+    color: gray;
+    transition: 0.5s;
+}
+
+.arm:hover {
+    color: orange;
+}
+.arm-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+.chair-detail {
+    text-align: center;
+}
+.box2-detail {
+    /* border: 1px solid red; */
+}
+
+.box2-img {
+    /* border: 1px solid red; */
+    width: 220px;
+}
+.box2-btn {
+    border:1px solid black;
+    padding: 8px 15px;
+    transition: 0.5s;
+}
+
+.box2-btn:hover {
+    background-color: rgb(100, 93, 93);
+    color: whitesmoke;
+}
+
+.price {
+    color: orange;
+}
